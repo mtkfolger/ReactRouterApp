@@ -17,7 +17,7 @@ function Nav() {
           <Link className="home-link" style={navStyle} to="/"> <li>Home</li> </Link>
           <Link className="about-link" style={navStyle} to="/about"> <li>About</li> </Link>
           <Link className="shop-link" style={navStyle} to="/shop"> <li>Shop</li> </Link>
-          <Link className="shop-link" style={navStyle} to="/shop"> <li>Cart</li> </Link>
+          <Link className="shop-link" style={navStyle} to="/cart"> <li>Cart</li> </Link>
       </ul>
     </nav>
   );

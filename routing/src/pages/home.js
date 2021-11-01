@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import CoffeeHero from '../../src/coffee1.jpg'
+import MediaCard from "./products/product-card";
 
 
 function Home() {
@@ -9,8 +10,9 @@ function Home() {
       <img className="main-image" src={CoffeeHero} alt="Coffee=Pour"></img>
         
             <h2 className="home-para">Products</h2>
-
-            </div>
+            <hr className="line"></hr>
+            <MediaCard />
+    </div>
     );
 
     

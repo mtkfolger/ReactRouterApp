@@ -21,6 +21,7 @@ function Shop() {
 
   return (
     <div>
+      <h1>Products</h1>
         {items.map(item => (
           <h1 key={item.title}>
             <Link to={`/shop/${item.id}`}>{item.title}</Link>
