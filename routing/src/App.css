@@ -76,3 +76,44 @@ nav{
   margin-right: 10%;
   padding-left: 2em;
 }
+
+.card{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  max-width: 25%;
+
+}
+
+.line {
+  width:90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  max-width: 25%;
+}
+
+.card-media{
+  display: flex;
+  width: 100vw;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
